@@ -1,8 +1,11 @@
 import React from "react";
-import "@pages/options/Options.css";
 
 const Options: React.FC = () => {
-  return <div className="OptionsContainer">Options</div>;
+  return (
+    <div className="">
+      <h1 className="mx-5 text-3xl font-bold underline">Hello world!</h1>
+    </div>
+  );
 };
 
 export default Options;

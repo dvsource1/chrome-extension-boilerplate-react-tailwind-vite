@@ -1,10 +1,9 @@
 import React from "react";
-import "@pages/panel/Panel.css";
 
 const Panel: React.FC = () => {
   return (
-    <div className="container">
-      <h1>Dev Tools Panel</h1>
+    <div className="">
+      <h1 className="mx-5 text-3xl font-bold underline">Hello world!</h1>
     </div>
   );
 };
